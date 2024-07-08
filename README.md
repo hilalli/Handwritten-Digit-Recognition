@@ -1,21 +1,20 @@
-# Handwritten Digit Recognition
+## Handwritten Digit Recognition
 
-This project uses a neural network model to recognize handwritten digits. The project consists of three main parts: a GUI application, a training script, and a testing script. 
-
+This project uses a neural network model to recognize handwritten digits. The project consists of three main parts: a GUI application, a training script, and a testing script. It provides a simple GUI and video processing application using TensorFlow and OpenCV to recognize handwritten digits. The GUI application allows users to draw digits and recognize them, while the video processing application recognizes digits in real-time from a video stream.
 
 ## Features
 
-1. **GUI Application **:
+1. **GUI Application**:
     - Users can draw digits on a canvas.
     - The drawn digit is recognized and the result is displayed on the screen.
     - The canvas can be cleared.
     - The result is saved as `Result.png`.
 
-2. **Training Code **:
+2. **Training Code**:
     - Trains the model on a dataset of handwritten digits.
     - Saves the trained model as `handwritten_digit_recognition_model.h5`.
 
-3. **Testing Code **:
+3. **Testing Code**:
     - Recognizes digits from a video or camera stream.
     - Displays the recognized digits and their confidence levels on the video stream in real-time.
 
@@ -75,8 +74,12 @@ This project uses a neural network model to recognize handwritten digits. The pr
 - **handwr_dig_reg_train.py**: Training script code.
 - **handwr_dig_reg_test.py**: Testing script code.
 
+## Sample Video
+
+I have included a sample video named `digits.mp4` in the project directory to demonstrate the testing script. You can use this video to test the digit recognition functionality. If you want, you can create a new MP4 video and try with that as well.
+
 ## Author
 
-- **Hilal Işık**
+**Hilal Işık**
 
-This project provides a simple GUI and video processing application using TensorFlow and OpenCV to recognize handwritten digits. The GUI application allows users to draw digits and recognize them, while the video processing application recognizes digits in real-time from a video stream.
+
